@@ -9,8 +9,10 @@
     box-shadow: none;
 }
 
+/*  SEARCH section ------------------------------------ */
+
 #search_resulsts{
-    padding: 3% 5% 5%;
+    padding: 1% 5% 5%;
     text-transform: uppercase;
 }
 
@@ -26,7 +28,7 @@ ul{
 h4{
     font-size: 1.1rem;
     font-weight: 600;
-    color: #ff7272;
+    color: #116979;
 }
 
 .results__author {
@@ -53,16 +55,52 @@ h4{
     text-decoration: none;
     color: black
 }
-
-.results__pages{
-   
-}
-
 .results__btn--prev{
     margin-left: 12%;
     float: left;
 }
-
 .results__btn--next{
     float: right;
+}
+
+/* Content Description --------------------------*/
+
+.content_desc{
+    transition: all 0.3s;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.bank_details--items{
+    margin-top: 5%;
+}
+
+.list_items_heading{
+    color: #fe346e;
+    padding-right: 5%;
+}
+
+td{
+    padding: 5px 20px 5px 5px;
+    font-size: 1.1rem;
+}
+
+td:first-child{
+    font-weight: 600;
+    color: #e32249;
+}
+
+td:nth-child(2){
+    color: #0f4c75;
+}
+
+.like--items{
+    margin-top: 3%;
+    float: right;
+}
+
+.like--items:hover{
+    color: #21bf73;
 }

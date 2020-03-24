@@ -14,7 +14,55 @@
     text-transform: uppercase;
 }
 
-
 .favourate_items{
     text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ff7272;
+}
+
+.results__author {
+    font-family: 'Dosis', sans-serif;
+    color: #3b6978;
+}
+
+.results__data {
+    /* background-color: lightgray; */
+    padding: 1rem 1rem .5rem;
+    transition: all 0.3s;
+}
+
+.results__data:hover{
+    transform: translateY(-3px);
+}
+
+.results_items {
+    margin-bottom: 5%;
+}
+
+.results__link:link,
+.results__link:visited{
+    text-decoration: none;
+    color: black
+}
+
+.results__pages{
+   
+}
+
+.results__btn--prev{
+    margin-left: 12%;
+    float: left;
+}
+
+.results__btn--next{
+    float: right;
 }

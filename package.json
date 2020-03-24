@@ -1,0 +1,19 @@
+{
+  "name": "bank_search",
+  "version": "1.0.0",
+  "description": "allows to search bank over the each state in India",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "BOB",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

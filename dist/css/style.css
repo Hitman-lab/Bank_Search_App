@@ -68,7 +68,6 @@ h4{
 .content_desc{
     transition: all 0.3s;
 }
-
 .card-title{
     text-align: center;
 }
@@ -102,5 +101,5 @@ td:nth-child(2){
 }
 
 .like--items:hover{
-    color: #21bf73;
+    color: #e32249;
 }
